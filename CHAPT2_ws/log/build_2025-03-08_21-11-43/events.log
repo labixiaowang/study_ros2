@@ -1,0 +1,166 @@
+[0.000000] (-) TimerEvent: {}
+[0.000649] (demo_cpp_pkg) JobQueued: {'identifier': 'demo_cpp_pkg', 'dependencies': OrderedDict()}
+[0.000723] (demo_py_pkg) JobQueued: {'identifier': 'demo_py_pkg', 'dependencies': OrderedDict()}
+[0.000793] (demo_cpp_pkg) JobStarted: {'identifier': 'demo_cpp_pkg'}
+[0.013354] (demo_py_pkg) JobStarted: {'identifier': 'demo_py_pkg'}
+[0.026709] (demo_cpp_pkg) JobProgress: {'identifier': 'demo_cpp_pkg', 'progress': 'cmake'}
+[0.028802] (demo_cpp_pkg) JobProgress: {'identifier': 'demo_cpp_pkg', 'progress': 'build'}
+[0.034614] (demo_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wxx/study_ros2/CHAPT2_ws/build/demo_cpp_pkg', '--', '-j16', '-l16'], 'cwd': '/home/wxx/study_ros2/CHAPT2_ws/build/demo_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'wxx'), ('GIT_ASKPASS', '/home/wxx/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/wxx'), ('OLDPWD', '/home/wxx/study_ros2'), ('TERM_PROGRAM_VERSION', '1.98.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-d2bda353-bf85-4d4d-8887-94470c9c8073.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/wxx/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/wxx/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/wxx/.vscode-server/extensions/ms-python.debugpy-2025.4.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'wxx'), ('NAME', 'WX-R7000'), ('WSL_INTEROP', '/run/WSL/10296_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/wxx/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/cursar/cursor/resources/app/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/d/programs/Scripts/:/mnt/d/programs/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/Program Files (x86)/runtime/win64:/mnt/d/Program Files (x86)/bin:/mnt/d/Program Files (x86)/polyspace/bin:/mnt/d/Matlab2021a/runtime/win64:/mnt/d/Matlab2021a/bin:/mnt/d/Matlab2021a/polyspace/bin:/mnt/c/Program Files/Bandizip/:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/f/Anaconda/Anaconda file:/mnt/f/Anaconda/Anaconda file/Scripts:/mnt/f/Anaconda/Anaconda file/Library/bin:/mnt/c/Program Files/dotnet/:/mnt/d/git/gitfiles/Git/cmd:/mnt/e/JAVA/Java_SDK/bin:/mnt/e/CLion/STM32cube/MinGW/bin:/mnt/d/cursar/cursor/resources/app/bin:/mnt/e/CLion/gcc-arm/10 2021.10/bin:/mnt/d/LaTex/texlive/2023/bin/windows:/mnt/c/Users/28135/AppData/Local/Microsoft/WindowsApps:/mnt/e/CLion/CLion 2023.2.1/bin:/mnt/d/pycharm/Pycharm file/PyCharm 2023.3.2/bin:/mnt/e/bandzip/BANDIZIP/:/mnt/e/anconda/DataSpell 2023.2.2/bin:/mnt/d/pycharm/Graphviz/bin:/mnt/e/anconda:/mnt/e/DataGrip/datagrip/DataGrip 2023.2.1/bin:/mnt/e/IntelliJ IDEA/IntelliJ IDEA 2023.2.3/bin:/mnt/e/Intellij IDEA/IDEAfiles/IntelliJ IDEA 2024.2.0.1/bin:/mnt/e/CLion/clionfiles/CLion 2024.2.2/bin:/mnt/c/Users/28135/AppData/Local/Programs/Ollama:/mnt/e/Ollama:/mnt/d/cursar/cursor/resources/app/bin:/mnt/e/Vscode/Microsoft VS Code/bin:/snap/bin:/home/wxx/.vscode-server/extensions/ms-python.debugpy-2025.4.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/wxx/.vscode-server/extensions/ms-python.debugpy-2025.4.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-3d262ebc4dd462e5.txt'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-462ed2d58a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/wxx/study_ros2/CHAPT2_ws/build/demo_cpp_pkg'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099534] (-) TimerEvent: {}
+[0.124648] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.153864] (demo_cpp_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.199624] (-) TimerEvent: {}
+[0.300038] (-) TimerEvent: {}
+[0.347188] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.400258] (-) TimerEvent: {}
+[0.500740] (-) TimerEvent: {}
+[0.601176] (-) TimerEvent: {}
+[0.693365] (demo_py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/demo_py_pkg', 'build', '--build-base', '/home/wxx/study_ros2/CHAPT2_ws/build/demo_py_pkg/build', 'install', '--record', '/home/wxx/study_ros2/CHAPT2_ws/build/demo_py_pkg/install.log', '--install-scripts', '$base/lib/demo_py_pkg', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/wxx/study_ros2/CHAPT2_ws/src/demo_py_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'wxx', 'GIT_ASKPASS': '/home/wxx/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/wxx', 'OLDPWD': '/home/wxx/study_ros2', 'TERM_PROGRAM_VERSION': '1.98.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-d2bda353-bf85-4d4d-8887-94470c9c8073.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/wxx/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/wxx/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/wxx/.vscode-server/extensions/ms-python.debugpy-2025.4.0-linux-x64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-20.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'wxx', 'NAME': 'WX-R7000', 'WSL_INTEROP': '/run/WSL/10296_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/wxx/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/cursar/cursor/resources/app/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/d/programs/Scripts/:/mnt/d/programs/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/Program Files (x86)/runtime/win64:/mnt/d/Program Files (x86)/bin:/mnt/d/Program Files (x86)/polyspace/bin:/mnt/d/Matlab2021a/runtime/win64:/mnt/d/Matlab2021a/bin:/mnt/d/Matlab2021a/polyspace/bin:/mnt/c/Program Files/Bandizip/:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/f/Anaconda/Anaconda file:/mnt/f/Anaconda/Anaconda file/Scripts:/mnt/f/Anaconda/Anaconda file/Library/bin:/mnt/c/Program Files/dotnet/:/mnt/d/git/gitfiles/Git/cmd:/mnt/e/JAVA/Java_SDK/bin:/mnt/e/CLion/STM32cube/MinGW/bin:/mnt/d/cursar/cursor/resources/app/bin:/mnt/e/CLion/gcc-arm/10 2021.10/bin:/mnt/d/LaTex/texlive/2023/bin/windows:/mnt/c/Users/28135/AppData/Local/Microsoft/WindowsApps:/mnt/e/CLion/CLion 2023.2.1/bin:/mnt/d/pycharm/Pycharm file/PyCharm 2023.3.2/bin:/mnt/e/bandzip/BANDIZIP/:/mnt/e/anconda/DataSpell 2023.2.2/bin:/mnt/d/pycharm/Graphviz/bin:/mnt/e/anconda:/mnt/e/DataGrip/datagrip/DataGrip 2023.2.1/bin:/mnt/e/IntelliJ IDEA/IntelliJ IDEA 2023.2.3/bin:/mnt/e/Intellij IDEA/IDEAfiles/IntelliJ IDEA 2024.2.0.1/bin:/mnt/e/CLion/clionfiles/CLion 2024.2.2/bin:/mnt/c/Users/28135/AppData/Local/Programs/Ollama:/mnt/e/Ollama:/mnt/d/cursar/cursor/resources/app/bin:/mnt/e/Vscode/Microsoft VS Code/bin:/snap/bin:/home/wxx/.vscode-server/extensions/ms-python.debugpy-2025.4.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/wxx/.vscode-server/extensions/ms-python.debugpy-2025.4.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-3d262ebc4dd462e5.txt', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-462ed2d58a.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/wxx/study_ros2/CHAPT2_ws/build/demo_py_pkg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/wxx/study_ros2/CHAPT2_ws/build/demo_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wxx/study_ros2/CHAPT2_ws/install/demo_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}, 'shell': False}
+[0.698118] (demo_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.701293] (-) TimerEvent: {}
+[0.702228] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.801460] (-) TimerEvent: {}
+[0.881183] (demo_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[0.881824] (demo_py_pkg) StdoutLine: {'line': b'writing ../../build/demo_py_pkg/demo_py_pkg.egg-info/PKG-INFO\n'}
+[0.882149] (demo_py_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/demo_py_pkg/demo_py_pkg.egg-info/dependency_links.txt\n'}
+[0.882388] (demo_py_pkg) StdoutLine: {'line': b'writing entry points to ../../build/demo_py_pkg/demo_py_pkg.egg-info/entry_points.txt\n'}
+[0.882762] (demo_py_pkg) StdoutLine: {'line': b'writing requirements to ../../build/demo_py_pkg/demo_py_pkg.egg-info/requires.txt\n'}
+[0.882850] (demo_py_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/demo_py_pkg/demo_py_pkg.egg-info/top_level.txt\n'}
+[0.901589] (-) TimerEvent: {}
+[0.913430] (demo_py_pkg) StdoutLine: {'line': b"reading manifest file '../../build/demo_py_pkg/demo_py_pkg.egg-info/SOURCES.txt'\n"}
+[0.914665] (demo_py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/demo_py_pkg/demo_py_pkg.egg-info/SOURCES.txt'\n"}
+[0.914863] (demo_py_pkg) StdoutLine: {'line': b'running build\n'}
+[0.914952] (demo_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[0.915191] (demo_py_pkg) StdoutLine: {'line': b'running install\n'}
+[0.915882] (demo_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[0.917623] (demo_py_pkg) StdoutLine: {'line': b'byte-compiling /home/wxx/study_ros2/CHAPT2_ws/install/demo_py_pkg/lib/python3.8/site-packages/demo_py_pkg/person_node.py to person_node.cpython-38.pyc\n'}
+[0.918875] (demo_py_pkg) StderrLine: {'line': b'  File "/home/wxx/study_ros2/CHAPT2_ws/install/demo_py_pkg/lib/python3.8/site-packages/demo_py_pkg/person_node.py", line 4\n'}
+[0.919144] (demo_py_pkg) StderrLine: {'line': b'    def __init__(self):\n'}
+[0.919331] (demo_py_pkg) StderrLine: {'line': b'                      ^\n'}
+[0.919418] (demo_py_pkg) StderrLine: {'line': b'SyntaxError: unexpected EOF while parsing\n'}
+[0.919481] (demo_py_pkg) StderrLine: {'line': b'\n'}
+[0.919564] (demo_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[0.919693] (demo_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.920944] (demo_py_pkg) StdoutLine: {'line': b"removing '/home/wxx/study_ros2/CHAPT2_ws/install/demo_py_pkg/lib/python3.8/site-packages/demo_py_pkg-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[0.921638] (demo_py_pkg) StdoutLine: {'line': b'Copying ../../build/demo_py_pkg/demo_py_pkg.egg-info to /home/wxx/study_ros2/CHAPT2_ws/install/demo_py_pkg/lib/python3.8/site-packages/demo_py_pkg-0.0.0-py3.8.egg-info\n'}
+[0.923097] (demo_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[0.937284] (demo_py_pkg) StdoutLine: {'line': b'Installing person_node script to /home/wxx/study_ros2/CHAPT2_ws/install/demo_py_pkg/lib/demo_py_pkg\n'}
+[0.937742] (demo_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/wxx/study_ros2/CHAPT2_ws/build/demo_py_pkg/install.log'\n"}
+[0.960404] (demo_py_pkg) CommandEnded: {'returncode': 0}
+[0.978292] (demo_py_pkg) JobEnded: {'identifier': 'demo_py_pkg', 'rc': 0}
+[1.001740] (-) TimerEvent: {}
+[1.102186] (-) TimerEvent: {}
+[1.202677] (-) TimerEvent: {}
+[1.303114] (-) TimerEvent: {}
+[1.403473] (-) TimerEvent: {}
+[1.503865] (-) TimerEvent: {}
+[1.604296] (-) TimerEvent: {}
+[1.704733] (-) TimerEvent: {}
+[1.805114] (-) TimerEvent: {}
+[1.905527] (-) TimerEvent: {}
+[2.005968] (-) TimerEvent: {}
+[2.106400] (-) TimerEvent: {}
+[2.206842] (-) TimerEvent: {}
+[2.307322] (-) TimerEvent: {}
+[2.407749] (-) TimerEvent: {}
+[2.508197] (-) TimerEvent: {}
+[2.608672] (-) TimerEvent: {}
+[2.709078] (-) TimerEvent: {}
+[2.809556] (-) TimerEvent: {}
+[2.909985] (-) TimerEvent: {}
+[3.010396] (-) TimerEvent: {}
+[3.110790] (-) TimerEvent: {}
+[3.211233] (-) TimerEvent: {}
+[3.311710] (-) TimerEvent: {}
+[3.412109] (-) TimerEvent: {}
+[3.512506] (-) TimerEvent: {}
+[3.612950] (-) TimerEvent: {}
+[3.713352] (-) TimerEvent: {}
+[3.813787] (-) TimerEvent: {}
+[3.914194] (-) TimerEvent: {}
+[4.014653] (-) TimerEvent: {}
+[4.115052] (-) TimerEvent: {}
+[4.215465] (-) TimerEvent: {}
+[4.315874] (-) TimerEvent: {}
+[4.416331] (-) TimerEvent: {}
+[4.516723] (-) TimerEvent: {}
+[4.617299] (-) TimerEvent: {}
+[4.717720] (-) TimerEvent: {}
+[4.818105] (-) TimerEvent: {}
+[4.918535] (-) TimerEvent: {}
+[5.018961] (-) TimerEvent: {}
+[5.119391] (-) TimerEvent: {}
+[5.219828] (-) TimerEvent: {}
+[5.320284] (-) TimerEvent: {}
+[5.420659] (-) TimerEvent: {}
+[5.521107] (-) TimerEvent: {}
+[5.621504] (-) TimerEvent: {}
+[5.721908] (-) TimerEvent: {}
+[5.822347] (-) TimerEvent: {}
+[5.922746] (-) TimerEvent: {}
+[6.023214] (-) TimerEvent: {}
+[6.123646] (-) TimerEvent: {}
+[6.224040] (-) TimerEvent: {}
+[6.324496] (-) TimerEvent: {}
+[6.424991] (-) TimerEvent: {}
+[6.525363] (-) TimerEvent: {}
+[6.625795] (-) TimerEvent: {}
+[6.726213] (-) TimerEvent: {}
+[6.826638] (-) TimerEvent: {}
+[6.927079] (-) TimerEvent: {}
+[7.027549] (-) TimerEvent: {}
+[7.128021] (-) TimerEvent: {}
+[7.228439] (-) TimerEvent: {}
+[7.328845] (-) TimerEvent: {}
+[7.429369] (-) TimerEvent: {}
+[7.529870] (-) TimerEvent: {}
+[7.630284] (-) TimerEvent: {}
+[7.730694] (-) TimerEvent: {}
+[7.831083] (-) TimerEvent: {}
+[7.931480] (-) TimerEvent: {}
+[7.970814] (demo_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.028832] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[8.031308] (demo_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.031557] (-) TimerEvent: {}
+[8.131846] (-) TimerEvent: {}
+[8.226239] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[8.231953] (-) TimerEvent: {}
+[8.295264] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[8.296814] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[8.297145] (demo_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[8.297323] (demo_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[8.298276] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[8.298421] (demo_cpp_pkg) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[8.299670] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.301163] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[8.301365] (demo_cpp_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[8.302287] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.307160] (demo_cpp_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.319641] (demo_cpp_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[8.323180] (demo_cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/wxx/study_ros2/CHAPT2_ws/build/demo_cpp_pkg\n'}
+[8.332095] (-) TimerEvent: {}
+[8.382811] (demo_cpp_pkg) StdoutLine: {'line': b'[100%] Built target node_01\n'}
+[8.394997] (demo_cpp_pkg) CommandEnded: {'returncode': 0}
+[8.396148] (demo_cpp_pkg) JobProgress: {'identifier': 'demo_cpp_pkg', 'progress': 'install'}
+[8.407662] (demo_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wxx/study_ros2/CHAPT2_ws/build/demo_cpp_pkg'], 'cwd': '/home/wxx/study_ros2/CHAPT2_ws/build/demo_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'wxx'), ('GIT_ASKPASS', '/home/wxx/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/wxx'), ('OLDPWD', '/home/wxx/study_ros2'), ('TERM_PROGRAM_VERSION', '1.98.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-d2bda353-bf85-4d4d-8887-94470c9c8073.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/wxx/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/wxx/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/wxx/.vscode-server/extensions/ms-python.debugpy-2025.4.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'wxx'), ('NAME', 'WX-R7000'), ('WSL_INTEROP', '/run/WSL/10296_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/wxx/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/cursar/cursor/resources/app/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/d/programs/Scripts/:/mnt/d/programs/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/Program Files (x86)/runtime/win64:/mnt/d/Program Files (x86)/bin:/mnt/d/Program Files (x86)/polyspace/bin:/mnt/d/Matlab2021a/runtime/win64:/mnt/d/Matlab2021a/bin:/mnt/d/Matlab2021a/polyspace/bin:/mnt/c/Program Files/Bandizip/:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/f/Anaconda/Anaconda file:/mnt/f/Anaconda/Anaconda file/Scripts:/mnt/f/Anaconda/Anaconda file/Library/bin:/mnt/c/Program Files/dotnet/:/mnt/d/git/gitfiles/Git/cmd:/mnt/e/JAVA/Java_SDK/bin:/mnt/e/CLion/STM32cube/MinGW/bin:/mnt/d/cursar/cursor/resources/app/bin:/mnt/e/CLion/gcc-arm/10 2021.10/bin:/mnt/d/LaTex/texlive/2023/bin/windows:/mnt/c/Users/28135/AppData/Local/Microsoft/WindowsApps:/mnt/e/CLion/CLion 2023.2.1/bin:/mnt/d/pycharm/Pycharm file/PyCharm 2023.3.2/bin:/mnt/e/bandzip/BANDIZIP/:/mnt/e/anconda/DataSpell 2023.2.2/bin:/mnt/d/pycharm/Graphviz/bin:/mnt/e/anconda:/mnt/e/DataGrip/datagrip/DataGrip 2023.2.1/bin:/mnt/e/IntelliJ IDEA/IntelliJ IDEA 2023.2.3/bin:/mnt/e/Intellij IDEA/IDEAfiles/IntelliJ IDEA 2024.2.0.1/bin:/mnt/e/CLion/clionfiles/CLion 2024.2.2/bin:/mnt/c/Users/28135/AppData/Local/Programs/Ollama:/mnt/e/Ollama:/mnt/d/cursar/cursor/resources/app/bin:/mnt/e/Vscode/Microsoft VS Code/bin:/snap/bin:/home/wxx/.vscode-server/extensions/ms-python.debugpy-2025.4.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/wxx/.vscode-server/extensions/ms-python.debugpy-2025.4.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-3d262ebc4dd462e5.txt'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-462ed2d58a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/wxx/study_ros2/CHAPT2_ws/build/demo_cpp_pkg'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[8.414905] (demo_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.415314] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/demo_cpp_pkg\n'}
+[8.415416] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/demo_cpp_pkg\n'}
+[8.415480] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[8.415538] (demo_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[8.415811] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.sh\n'}
+[8.416078] (demo_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.dsv\n'}
+[8.416485] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.bash\n'}
+[8.416577] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.sh\n'}
+[8.416642] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.zsh\n'}
+[8.416699] (demo_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.dsv\n'}
+[8.416886] (demo_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/package.dsv\n'}
+[8.417116] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/packages/demo_cpp_pkg\n'}
+[8.417326] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig.cmake\n'}
+[8.417674] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig-version.cmake\n'}
+[8.417796] (demo_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/package.xml\n'}
+[8.418957] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/node_01\n'}
+[8.421093] (demo_cpp_pkg) CommandEnded: {'returncode': 0}
+[8.432259] (-) TimerEvent: {}
+[8.436314] (demo_cpp_pkg) JobEnded: {'identifier': 'demo_cpp_pkg', 'rc': 0}
+[8.437819] (-) EventReactorShutdown: {}

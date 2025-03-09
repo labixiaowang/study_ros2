@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/demo_py_pkg/demo_py_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/demo_py_pkg/demo_py_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/demo_py_pkg/demo_py_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/demo_py_pkg/demo_py_pkg.egg-info/requires.txt
+writing top-level names to ../../build/demo_py_pkg/demo_py_pkg.egg-info/top_level.txt
+reading manifest file '../../build/demo_py_pkg/demo_py_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/demo_py_pkg/demo_py_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+copying demo_py_pkg/person_node.py -> /home/wxx/study_ros2/CHAPT2_ws/build/demo_py_pkg/build/lib/demo_py_pkg
+running install
+running install_lib
+copying /home/wxx/study_ros2/CHAPT2_ws/build/demo_py_pkg/build/lib/demo_py_pkg/person_node.py -> /home/wxx/study_ros2/CHAPT2_ws/install/demo_py_pkg/lib/python3.8/site-packages/demo_py_pkg
+byte-compiling /home/wxx/study_ros2/CHAPT2_ws/install/demo_py_pkg/lib/python3.8/site-packages/demo_py_pkg/person_node.py to person_node.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/wxx/study_ros2/CHAPT2_ws/install/demo_py_pkg/lib/python3.8/site-packages/demo_py_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/demo_py_pkg/demo_py_pkg.egg-info to /home/wxx/study_ros2/CHAPT2_ws/install/demo_py_pkg/lib/python3.8/site-packages/demo_py_pkg-0.0.0-py3.8.egg-info
+running install_scripts
+Installing person_node script to /home/wxx/study_ros2/CHAPT2_ws/install/demo_py_pkg/lib/demo_py_pkg
+writing list of installed files to '/home/wxx/study_ros2/CHAPT2_ws/build/demo_py_pkg/install.log'

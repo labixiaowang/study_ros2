@@ -1,0 +1,206 @@
+[0.453s] Invoking command in '/home/wxx/study_ros2/CHAPT2_ws/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/wxx/study_ros2/CHAPT2_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/wxx/study_ros2/CHAPT2_ws/install/interfaces
+[0.636s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.636s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.653s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.992s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.000s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[8.260s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.431s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[8.486s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[8.650s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[15.855s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[15.979s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[16.000s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[16.002s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[16.874s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[16.874s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[16.874s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[16.874s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[16.890s] -- Found PythonExtra: .so  
+[17.054s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[17.096s] -- Added test 'copyright' to check source files copyright and LICENSE
+[17.099s] -- Added test 'lint_cmake' to check CMake code style
+[17.101s] -- Added test 'xmllint' to check XML markup files
+[17.107s] -- Configuring done
+[17.193s] -- Generating done
+[17.213s] -- Build files have been written to: /home/wxx/study_ros2/CHAPT2_ws/build/interfaces
+[17.223s] Invoked command in '/home/wxx/study_ros2/CHAPT2_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/wxx/study_ros2/CHAPT2_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/wxx/study_ros2/CHAPT2_ws/install/interfaces
+[17.226s] Invoking command in '/home/wxx/study_ros2/CHAPT2_ws/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/wxx/study_ros2/CHAPT2_ws/build/interfaces -- -j16 -l16
+[17.264s] [35m[1mScanning dependencies of target interfaces__cpp[0m
+[17.265s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[17.275s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[17.577s] [35m[1mScanning dependencies of target interfaces__rosidl_generator_c[0m
+[17.583s] [  6%] Built target interfaces__cpp
+[17.597s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[17.598s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[17.599s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[17.604s] [ 19%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/face_detector__functions.c.o[0m
+[17.768s] [ 22%] [32m[1mLinking C shared library libinterfaces__rosidl_generator_c.so[0m
+[17.825s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_cpp[0m
+[17.848s] [ 25%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/face_detector__type_support.cpp.o[0m
+[17.857s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_introspection_cpp[0m
+[17.861s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[17.877s] [ 29%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/face_detector__type_support.cpp.o[0m
+[17.893s] [ 32%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/face_detector__type_support.cpp.o[0m
+[18.086s] [ 32%] Built target interfaces__rosidl_generator_c
+[18.099s] [ 35%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[18.100s] [ 38%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[18.292s] [ 41%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so[0m
+[18.353s] [ 45%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so[0m
+[18.388s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_c[0m
+[18.401s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_introspection_c[0m
+[18.411s] [ 48%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/face_detector__type_support.cpp.o[0m
+[18.423s] [ 51%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/face_detector__type_support.c.o[0m
+[18.454s] [ 54%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_c.so[0m
+[18.473s] [ 58%] [32m[1mLinking C shared library libinterfaces__rosidl_typesupport_introspection_c.so[0m
+[18.499s] [ 61%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[18.608s] [ 61%] Built target interfaces__rosidl_typesupport_cpp
+[18.657s] [ 61%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[18.700s] [ 61%] Built target interfaces__rosidl_typesupport_introspection_c
+[18.707s] [ 61%] Built target interfaces__rosidl_typesupport_c
+[18.809s] [ 61%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[18.821s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[19.022s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_c[0m
+[19.046s] [ 67%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/face_detector__type_support_c.cpp.o[0m
+[19.346s] [ 70%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so[0m
+[19.620s] [ 70%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[19.630s] [35m[1mScanning dependencies of target interfaces[0m
+[19.641s] [ 70%] Built target interfaces
+[19.653s] [35m[1mScanning dependencies of target interfaces__py[0m
+[19.666s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[20.127s] [ 74%] Built target interfaces__py
+[20.136s] [35m[1mScanning dependencies of target interfaces__python[0m
+[20.184s] [ 77%] [32mBuilding C object CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/srv/_face_detector_s.c.o[0m
+[20.301s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/libinterfaces__python.so[0m
+[20.545s] [ 80%] Built target interfaces__python
+[20.556s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_c__pyext[0m
+[20.556s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[20.557s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[20.583s] [ 83%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[20.584s] [ 87%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[20.585s] [ 90%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[20.677s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[20.691s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[20.691s] [100%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[20.883s] [100%] Built target interfaces__rosidl_typesupport_c__pyext
+[20.884s] [100%] Built target interfaces__rosidl_typesupport_introspection_c__pyext
+[20.907s] [100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext
+[20.918s] Invoked command in '/home/wxx/study_ros2/CHAPT2_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/wxx/study_ros2/CHAPT2_ws/build/interfaces -- -j16 -l16
+[20.921s] Invoking command in '/home/wxx/study_ros2/CHAPT2_ws/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/wxx/study_ros2/CHAPT2_ws/build/interfaces
+[20.928s] -- Install configuration: ""
+[20.929s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces
+[20.929s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces
+[20.930s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv
+[20.930s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv/detail
+[20.930s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv/detail/face_detector__functions.c
+[20.930s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv/detail/face_detector__struct.h
+[20.931s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv/detail/face_detector__functions.h
+[20.931s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv/detail/face_detector__type_support.h
+[20.931s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv/face_detector.h
+[20.931s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/msg
+[20.931s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/msg/rosidl_generator_c__visibility_control.h
+[20.932s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/environment/library_path.sh
+[20.932s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/environment/library_path.dsv
+[20.933s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so
+[20.933s] -- Set runtime path of "/home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""
+[20.934s] -- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces
+[20.934s] -- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv
+[20.934s] -- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv/detail
+[20.934s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv/detail/face_detector__rosidl_typesupport_fastrtps_c.h
+[20.934s] -- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/msg
+[20.935s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[20.935s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so
+[20.935s] -- Set runtime path of "/home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[20.935s] -- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces
+[20.935s] -- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv
+[20.935s] -- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv/detail
+[20.935s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv/detail/dds_fastrtps
+[20.935s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv/detail/face_detector__rosidl_typesupport_fastrtps_cpp.hpp
+[20.936s] -- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/msg
+[20.936s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[20.936s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so
+[20.937s] -- Set runtime path of "/home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[20.937s] -- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces
+[20.937s] -- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv
+[20.937s] -- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv/detail
+[20.937s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_c.h
+[20.938s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv/detail/face_detector__type_support.c
+[20.938s] -- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/msg
+[20.938s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[20.938s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so
+[20.938s] -- Set runtime path of "/home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""
+[20.939s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so
+[20.939s] -- Set runtime path of "/home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""
+[20.939s] -- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces
+[20.939s] -- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv
+[20.939s] -- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv/detail
+[20.939s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv/detail/face_detector__builder.hpp
+[20.939s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv/detail/face_detector__struct.hpp
+[20.939s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv/detail/face_detector__traits.hpp
+[20.940s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv/detail/face_detector__type_support.hpp
+[20.940s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv/face_detector.hpp
+[20.940s] -- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/msg
+[20.940s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[20.940s] -- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces
+[20.940s] -- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv
+[20.941s] -- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv/detail
+[20.941s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv/detail/face_detector__type_support.cpp
+[20.941s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_cpp.hpp
+[20.941s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so
+[20.942s] -- Set runtime path of "/home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[20.942s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so
+[20.942s] -- Set runtime path of "/home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""
+[20.942s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/environment/pythonpath.sh
+[20.942s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/environment/pythonpath.dsv
+[20.943s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/__init__.py
+[20.969s] Compiling '/home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/__init__.py'...
+[20.974s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/srv
+[20.975s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/srv/__init__.py
+[20.975s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/srv/_face_detector.py
+[20.975s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/srv/_face_detector_s.c
+[20.975s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[20.976s] -- Set runtime path of "/home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[20.976s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[20.977s] -- Set runtime path of "/home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[20.977s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[20.978s] -- Set runtime path of "/home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[20.978s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/libinterfaces__python.so
+[20.978s] -- Set runtime path of "/home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/libinterfaces__python.so" to ""
+[20.979s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/srv/FaceDetector.idl
+[20.979s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/srv/FaceDetector.srv
+[20.979s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/srv/FaceDetector_Request.msg
+[20.979s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/srv/FaceDetector_Response.msg
+[20.980s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces
+[20.980s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces
+[20.980s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.sh
+[20.981s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv
+[20.981s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/environment/path.sh
+[20.981s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/environment/path.dsv
+[20.981s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/local_setup.bash
+[20.981s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/local_setup.sh
+[20.981s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/local_setup.zsh
+[20.982s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/local_setup.dsv
+[20.982s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/package.dsv
+[20.982s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/ament_index/resource_index/packages/interfaces
+[20.983s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cExport.cmake
+[20.983s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cExport-noconfig.cmake
+[20.983s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake
+[20.984s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[20.984s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake
+[20.984s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[20.984s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cppExport.cmake
+[20.985s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[20.985s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[20.985s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake
+[20.985s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[20.986s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake
+[20.986s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.986s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[20.986s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[20.986s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.987s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[20.987s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[20.987s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake
+[20.988s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake
+[20.988s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/package.xml
+[20.991s] Invoked command in '/home/wxx/study_ros2/CHAPT2_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/wxx/study_ros2/CHAPT2_ws/build/interfaces

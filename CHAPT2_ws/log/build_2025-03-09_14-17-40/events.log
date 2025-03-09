@@ -1,0 +1,525 @@
+[0.000000] (-) TimerEvent: {}
+[0.000415] (demo_cpp_pkg) JobQueued: {'identifier': 'demo_cpp_pkg', 'dependencies': OrderedDict()}
+[0.000504] (demo_py_pkg) JobQueued: {'identifier': 'demo_py_pkg', 'dependencies': OrderedDict()}
+[0.000564] (demo_python_topic) JobQueued: {'identifier': 'demo_python_topic', 'dependencies': OrderedDict()}
+[0.000593] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.000614] (service_pkg_py) JobQueued: {'identifier': 'service_pkg_py', 'dependencies': OrderedDict()}
+[0.001045] (demo_cpp_pkg) JobStarted: {'identifier': 'demo_cpp_pkg'}
+[0.016850] (demo_py_pkg) JobStarted: {'identifier': 'demo_py_pkg'}
+[0.036759] (demo_python_topic) JobStarted: {'identifier': 'demo_python_topic'}
+[0.045030] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.069958] (service_pkg_py) JobStarted: {'identifier': 'service_pkg_py'}
+[0.084763] (demo_cpp_pkg) JobProgress: {'identifier': 'demo_cpp_pkg', 'progress': 'cmake'}
+[0.100820] (demo_cpp_pkg) JobProgress: {'identifier': 'demo_cpp_pkg', 'progress': 'build'}
+[0.100973] (-) TimerEvent: {}
+[0.101303] (demo_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wxx/study_ros2/CHAPT2_ws/build/demo_cpp_pkg', '--', '-j16', '-l16'], 'cwd': '/home/wxx/study_ros2/CHAPT2_ws/build/demo_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'wxx'), ('GIT_ASKPASS', '/home/wxx/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/wxx'), ('OLDPWD', '/home/wxx/study_ros2/CHAPT2_ws/src'), ('TERM_PROGRAM_VERSION', '1.98.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-24f64495-a479-4a6f-a329-49b34f7f7b89.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/wxx/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/wxx/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/wxx/.vscode-server/extensions/ms-python.debugpy-2025.4.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'wxx'), ('NAME', 'WX-R7000'), ('WSL_INTEROP', '/run/WSL/701_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/wxx/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/cursar/cursor/resources/app/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/d/programs/Scripts/:/mnt/d/programs/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/Program Files (x86)/runtime/win64:/mnt/d/Program Files (x86)/bin:/mnt/d/Program Files (x86)/polyspace/bin:/mnt/d/Matlab2021a/runtime/win64:/mnt/d/Matlab2021a/bin:/mnt/d/Matlab2021a/polyspace/bin:/mnt/c/Program Files/Bandizip/:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/f/Anaconda/Anaconda file:/mnt/f/Anaconda/Anaconda file/Scripts:/mnt/f/Anaconda/Anaconda file/Library/bin:/mnt/c/Program Files/dotnet/:/mnt/d/git/gitfiles/Git/cmd:/mnt/e/JAVA/Java_SDK/bin:/mnt/e/CLion/STM32cube/MinGW/bin:/mnt/d/cursar/cursor/resources/app/bin:/mnt/e/CLion/gcc-arm/10 2021.10/bin:/mnt/d/LaTex/texlive/2023/bin/windows:/mnt/c/Users/28135/AppData/Local/Microsoft/WindowsApps:/mnt/e/CLion/CLion 2023.2.1/bin:/mnt/d/pycharm/Pycharm file/PyCharm 2023.3.2/bin:/mnt/e/bandzip/BANDIZIP/:/mnt/e/anconda/DataSpell 2023.2.2/bin:/mnt/d/pycharm/Graphviz/bin:/mnt/e/anconda:/mnt/e/DataGrip/datagrip/DataGrip 2023.2.1/bin:/mnt/e/IntelliJ IDEA/IntelliJ IDEA 2023.2.3/bin:/mnt/e/Intellij IDEA/IDEAfiles/IntelliJ IDEA 2024.2.0.1/bin:/mnt/e/CLion/clionfiles/CLion 2024.2.2/bin:/mnt/c/Users/28135/AppData/Local/Programs/Ollama:/mnt/e/Ollama:/mnt/d/cursar/cursor/resources/app/bin:/mnt/e/Vscode/Microsoft VS Code/bin:/snap/bin:/home/wxx/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/wxx/.vscode-server/extensions/ms-python.debugpy-2025.4.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/wxx/.vscode-server/extensions/ms-python.debugpy-2025.4.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-3d262ebc4dd462e5.txt'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-462ed2d58a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/wxx/study_ros2/CHAPT2_ws/build/demo_cpp_pkg'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.201106] (-) TimerEvent: {}
+[0.301682] (-) TimerEvent: {}
+[0.402120] (-) TimerEvent: {}
+[0.493245] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.494138] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/wxx/study_ros2/CHAPT2_ws/src/interfaces', '-DCMAKE_INSTALL_PREFIX=/home/wxx/study_ros2/CHAPT2_ws/install/interfaces'], 'cwd': '/home/wxx/study_ros2/CHAPT2_ws/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'wxx'), ('GIT_ASKPASS', '/home/wxx/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/wxx'), ('OLDPWD', '/home/wxx/study_ros2/CHAPT2_ws/src'), ('TERM_PROGRAM_VERSION', '1.98.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-24f64495-a479-4a6f-a329-49b34f7f7b89.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/wxx/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/wxx/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/wxx/.vscode-server/extensions/ms-python.debugpy-2025.4.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'wxx'), ('NAME', 'WX-R7000'), ('WSL_INTEROP', '/run/WSL/701_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/wxx/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/cursar/cursor/resources/app/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/d/programs/Scripts/:/mnt/d/programs/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/Program Files (x86)/runtime/win64:/mnt/d/Program Files (x86)/bin:/mnt/d/Program Files (x86)/polyspace/bin:/mnt/d/Matlab2021a/runtime/win64:/mnt/d/Matlab2021a/bin:/mnt/d/Matlab2021a/polyspace/bin:/mnt/c/Program Files/Bandizip/:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/f/Anaconda/Anaconda file:/mnt/f/Anaconda/Anaconda file/Scripts:/mnt/f/Anaconda/Anaconda file/Library/bin:/mnt/c/Program Files/dotnet/:/mnt/d/git/gitfiles/Git/cmd:/mnt/e/JAVA/Java_SDK/bin:/mnt/e/CLion/STM32cube/MinGW/bin:/mnt/d/cursar/cursor/resources/app/bin:/mnt/e/CLion/gcc-arm/10 2021.10/bin:/mnt/d/LaTex/texlive/2023/bin/windows:/mnt/c/Users/28135/AppData/Local/Microsoft/WindowsApps:/mnt/e/CLion/CLion 2023.2.1/bin:/mnt/d/pycharm/Pycharm file/PyCharm 2023.3.2/bin:/mnt/e/bandzip/BANDIZIP/:/mnt/e/anconda/DataSpell 2023.2.2/bin:/mnt/d/pycharm/Graphviz/bin:/mnt/e/anconda:/mnt/e/DataGrip/datagrip/DataGrip 2023.2.1/bin:/mnt/e/IntelliJ IDEA/IntelliJ IDEA 2023.2.3/bin:/mnt/e/Intellij IDEA/IDEAfiles/IntelliJ IDEA 2024.2.0.1/bin:/mnt/e/CLion/clionfiles/CLion 2024.2.2/bin:/mnt/c/Users/28135/AppData/Local/Programs/Ollama:/mnt/e/Ollama:/mnt/d/cursar/cursor/resources/app/bin:/mnt/e/Vscode/Microsoft VS Code/bin:/snap/bin:/home/wxx/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/wxx/.vscode-server/extensions/ms-python.debugpy-2025.4.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/wxx/.vscode-server/extensions/ms-python.debugpy-2025.4.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-3d262ebc4dd462e5.txt'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-462ed2d58a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/wxx/study_ros2/CHAPT2_ws/build/interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.502212] (-) TimerEvent: {}
+[0.602614] (-) TimerEvent: {}
+[0.677289] (demo_cpp_pkg) StdoutLine: {'line': b'[100%] Built target node_01\n'}
+[0.679665] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.681070] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.681226] (demo_cpp_pkg) CommandEnded: {'returncode': 0}
+[0.683627] (demo_cpp_pkg) JobProgress: {'identifier': 'demo_cpp_pkg', 'progress': 'install'}
+[0.694568] (demo_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wxx/study_ros2/CHAPT2_ws/build/demo_cpp_pkg'], 'cwd': '/home/wxx/study_ros2/CHAPT2_ws/build/demo_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'wxx'), ('GIT_ASKPASS', '/home/wxx/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/wxx'), ('OLDPWD', '/home/wxx/study_ros2/CHAPT2_ws/src'), ('TERM_PROGRAM_VERSION', '1.98.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-24f64495-a479-4a6f-a329-49b34f7f7b89.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/wxx/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/wxx/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/wxx/.vscode-server/extensions/ms-python.debugpy-2025.4.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'wxx'), ('NAME', 'WX-R7000'), ('WSL_INTEROP', '/run/WSL/701_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/wxx/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/cursar/cursor/resources/app/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/d/programs/Scripts/:/mnt/d/programs/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/Program Files (x86)/runtime/win64:/mnt/d/Program Files (x86)/bin:/mnt/d/Program Files (x86)/polyspace/bin:/mnt/d/Matlab2021a/runtime/win64:/mnt/d/Matlab2021a/bin:/mnt/d/Matlab2021a/polyspace/bin:/mnt/c/Program Files/Bandizip/:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/f/Anaconda/Anaconda file:/mnt/f/Anaconda/Anaconda file/Scripts:/mnt/f/Anaconda/Anaconda file/Library/bin:/mnt/c/Program Files/dotnet/:/mnt/d/git/gitfiles/Git/cmd:/mnt/e/JAVA/Java_SDK/bin:/mnt/e/CLion/STM32cube/MinGW/bin:/mnt/d/cursar/cursor/resources/app/bin:/mnt/e/CLion/gcc-arm/10 2021.10/bin:/mnt/d/LaTex/texlive/2023/bin/windows:/mnt/c/Users/28135/AppData/Local/Microsoft/WindowsApps:/mnt/e/CLion/CLion 2023.2.1/bin:/mnt/d/pycharm/Pycharm file/PyCharm 2023.3.2/bin:/mnt/e/bandzip/BANDIZIP/:/mnt/e/anconda/DataSpell 2023.2.2/bin:/mnt/d/pycharm/Graphviz/bin:/mnt/e/anconda:/mnt/e/DataGrip/datagrip/DataGrip 2023.2.1/bin:/mnt/e/IntelliJ IDEA/IntelliJ IDEA 2023.2.3/bin:/mnt/e/Intellij IDEA/IDEAfiles/IntelliJ IDEA 2024.2.0.1/bin:/mnt/e/CLion/clionfiles/CLion 2024.2.2/bin:/mnt/c/Users/28135/AppData/Local/Programs/Ollama:/mnt/e/Ollama:/mnt/d/cursar/cursor/resources/app/bin:/mnt/e/Vscode/Microsoft VS Code/bin:/snap/bin:/home/wxx/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/wxx/.vscode-server/extensions/ms-python.debugpy-2025.4.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/wxx/.vscode-server/extensions/ms-python.debugpy-2025.4.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-3d262ebc4dd462e5.txt'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-462ed2d58a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/wxx/study_ros2/CHAPT2_ws/build/demo_cpp_pkg'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.697528] (interfaces) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[0.702820] (-) TimerEvent: {}
+[0.706326] (demo_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.706771] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/demo_cpp_pkg\n'}
+[0.707027] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/demo_cpp_pkg\n'}
+[0.707986] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[0.708322] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[0.708543] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.sh\n'}
+[0.708639] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.dsv\n'}
+[0.708734] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.bash\n'}
+[0.708830] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.sh\n'}
+[0.708925] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.zsh\n'}
+[0.709003] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.dsv\n'}
+[0.709077] (demo_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/package.dsv\n'}
+[0.709149] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/packages/demo_cpp_pkg\n'}
+[0.709221] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig.cmake\n'}
+[0.709292] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig-version.cmake\n'}
+[0.709363] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/package.xml\n'}
+[0.709433] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/node_01\n'}
+[0.718452] (demo_cpp_pkg) CommandEnded: {'returncode': 0}
+[0.752929] (demo_cpp_pkg) JobEnded: {'identifier': 'demo_cpp_pkg', 'rc': 0}
+[0.802948] (-) TimerEvent: {}
+[0.903372] (-) TimerEvent: {}
+[1.003815] (-) TimerEvent: {}
+[1.036992] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.045228] (interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.103939] (-) TimerEvent: {}
+[1.172928] (demo_py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/demo_py_pkg', 'build', '--build-base', '/home/wxx/study_ros2/CHAPT2_ws/build/demo_py_pkg/build', 'install', '--record', '/home/wxx/study_ros2/CHAPT2_ws/build/demo_py_pkg/install.log', '--install-scripts', '$base/lib/demo_py_pkg', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/wxx/study_ros2/CHAPT2_ws/src/demo_py_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'wxx', 'GIT_ASKPASS': '/home/wxx/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/wxx', 'OLDPWD': '/home/wxx/study_ros2/CHAPT2_ws/src', 'TERM_PROGRAM_VERSION': '1.98.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-24f64495-a479-4a6f-a329-49b34f7f7b89.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/wxx/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/wxx/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/wxx/.vscode-server/extensions/ms-python.debugpy-2025.4.0-linux-x64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-20.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'wxx', 'NAME': 'WX-R7000', 'WSL_INTEROP': '/run/WSL/701_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/wxx/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/cursar/cursor/resources/app/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/d/programs/Scripts/:/mnt/d/programs/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/Program Files (x86)/runtime/win64:/mnt/d/Program Files (x86)/bin:/mnt/d/Program Files (x86)/polyspace/bin:/mnt/d/Matlab2021a/runtime/win64:/mnt/d/Matlab2021a/bin:/mnt/d/Matlab2021a/polyspace/bin:/mnt/c/Program Files/Bandizip/:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/f/Anaconda/Anaconda file:/mnt/f/Anaconda/Anaconda file/Scripts:/mnt/f/Anaconda/Anaconda file/Library/bin:/mnt/c/Program Files/dotnet/:/mnt/d/git/gitfiles/Git/cmd:/mnt/e/JAVA/Java_SDK/bin:/mnt/e/CLion/STM32cube/MinGW/bin:/mnt/d/cursar/cursor/resources/app/bin:/mnt/e/CLion/gcc-arm/10 2021.10/bin:/mnt/d/LaTex/texlive/2023/bin/windows:/mnt/c/Users/28135/AppData/Local/Microsoft/WindowsApps:/mnt/e/CLion/CLion 2023.2.1/bin:/mnt/d/pycharm/Pycharm file/PyCharm 2023.3.2/bin:/mnt/e/bandzip/BANDIZIP/:/mnt/e/anconda/DataSpell 2023.2.2/bin:/mnt/d/pycharm/Graphviz/bin:/mnt/e/anconda:/mnt/e/DataGrip/datagrip/DataGrip 2023.2.1/bin:/mnt/e/IntelliJ IDEA/IntelliJ IDEA 2023.2.3/bin:/mnt/e/Intellij IDEA/IDEAfiles/IntelliJ IDEA 2024.2.0.1/bin:/mnt/e/CLion/clionfiles/CLion 2024.2.2/bin:/mnt/c/Users/28135/AppData/Local/Programs/Ollama:/mnt/e/Ollama:/mnt/d/cursar/cursor/resources/app/bin:/mnt/e/Vscode/Microsoft VS Code/bin:/snap/bin:/home/wxx/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/wxx/.vscode-server/extensions/ms-python.debugpy-2025.4.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/wxx/.vscode-server/extensions/ms-python.debugpy-2025.4.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-3d262ebc4dd462e5.txt', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-462ed2d58a.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/wxx/study_ros2/CHAPT2_ws/build/demo_py_pkg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/wxx/study_ros2/CHAPT2_ws/build/demo_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wxx/study_ros2/CHAPT2_ws/install/demo_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}, 'shell': False}
+[1.182271] (demo_python_topic) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/demo_python_topic', 'build', '--build-base', '/home/wxx/study_ros2/CHAPT2_ws/build/demo_python_topic/build', 'install', '--record', '/home/wxx/study_ros2/CHAPT2_ws/build/demo_python_topic/install.log', '--install-scripts', '$base/lib/demo_python_topic', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/wxx/study_ros2/CHAPT2_ws/src/demo_python_topic', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'wxx', 'GIT_ASKPASS': '/home/wxx/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/wxx', 'OLDPWD': '/home/wxx/study_ros2/CHAPT2_ws/src', 'TERM_PROGRAM_VERSION': '1.98.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-24f64495-a479-4a6f-a329-49b34f7f7b89.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/wxx/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/wxx/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/wxx/.vscode-server/extensions/ms-python.debugpy-2025.4.0-linux-x64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-20.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'wxx', 'NAME': 'WX-R7000', 'WSL_INTEROP': '/run/WSL/701_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/wxx/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/cursar/cursor/resources/app/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/d/programs/Scripts/:/mnt/d/programs/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/Program Files (x86)/runtime/win64:/mnt/d/Program Files (x86)/bin:/mnt/d/Program Files (x86)/polyspace/bin:/mnt/d/Matlab2021a/runtime/win64:/mnt/d/Matlab2021a/bin:/mnt/d/Matlab2021a/polyspace/bin:/mnt/c/Program Files/Bandizip/:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/f/Anaconda/Anaconda file:/mnt/f/Anaconda/Anaconda file/Scripts:/mnt/f/Anaconda/Anaconda file/Library/bin:/mnt/c/Program Files/dotnet/:/mnt/d/git/gitfiles/Git/cmd:/mnt/e/JAVA/Java_SDK/bin:/mnt/e/CLion/STM32cube/MinGW/bin:/mnt/d/cursar/cursor/resources/app/bin:/mnt/e/CLion/gcc-arm/10 2021.10/bin:/mnt/d/LaTex/texlive/2023/bin/windows:/mnt/c/Users/28135/AppData/Local/Microsoft/WindowsApps:/mnt/e/CLion/CLion 2023.2.1/bin:/mnt/d/pycharm/Pycharm file/PyCharm 2023.3.2/bin:/mnt/e/bandzip/BANDIZIP/:/mnt/e/anconda/DataSpell 2023.2.2/bin:/mnt/d/pycharm/Graphviz/bin:/mnt/e/anconda:/mnt/e/DataGrip/datagrip/DataGrip 2023.2.1/bin:/mnt/e/IntelliJ IDEA/IntelliJ IDEA 2023.2.3/bin:/mnt/e/Intellij IDEA/IDEAfiles/IntelliJ IDEA 2024.2.0.1/bin:/mnt/e/CLion/clionfiles/CLion 2024.2.2/bin:/mnt/c/Users/28135/AppData/Local/Programs/Ollama:/mnt/e/Ollama:/mnt/d/cursar/cursor/resources/app/bin:/mnt/e/Vscode/Microsoft VS Code/bin:/snap/bin:/home/wxx/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/wxx/.vscode-server/extensions/ms-python.debugpy-2025.4.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/wxx/.vscode-server/extensions/ms-python.debugpy-2025.4.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-3d262ebc4dd462e5.txt', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-462ed2d58a.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/wxx/study_ros2/CHAPT2_ws/build/demo_python_topic', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/wxx/study_ros2/CHAPT2_ws/build/demo_python_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wxx/study_ros2/CHAPT2_ws/install/demo_python_topic/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}, 'shell': False}
+[1.189884] (service_pkg_py) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/service_pkg_py', 'build', '--build-base', '/home/wxx/study_ros2/CHAPT2_ws/build/service_pkg_py/build', 'install', '--record', '/home/wxx/study_ros2/CHAPT2_ws/build/service_pkg_py/install.log', '--install-scripts', '$base/lib/service_pkg_py', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/wxx/study_ros2/CHAPT2_ws/src/service_pkg_py', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'wxx', 'GIT_ASKPASS': '/home/wxx/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/wxx', 'OLDPWD': '/home/wxx/study_ros2/CHAPT2_ws/src', 'TERM_PROGRAM_VERSION': '1.98.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-24f64495-a479-4a6f-a329-49b34f7f7b89.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/wxx/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/wxx/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/wxx/.vscode-server/extensions/ms-python.debugpy-2025.4.0-linux-x64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-20.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'wxx', 'NAME': 'WX-R7000', 'WSL_INTEROP': '/run/WSL/701_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/wxx/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/cursar/cursor/resources/app/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/d/programs/Scripts/:/mnt/d/programs/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/Program Files (x86)/runtime/win64:/mnt/d/Program Files (x86)/bin:/mnt/d/Program Files (x86)/polyspace/bin:/mnt/d/Matlab2021a/runtime/win64:/mnt/d/Matlab2021a/bin:/mnt/d/Matlab2021a/polyspace/bin:/mnt/c/Program Files/Bandizip/:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/f/Anaconda/Anaconda file:/mnt/f/Anaconda/Anaconda file/Scripts:/mnt/f/Anaconda/Anaconda file/Library/bin:/mnt/c/Program Files/dotnet/:/mnt/d/git/gitfiles/Git/cmd:/mnt/e/JAVA/Java_SDK/bin:/mnt/e/CLion/STM32cube/MinGW/bin:/mnt/d/cursar/cursor/resources/app/bin:/mnt/e/CLion/gcc-arm/10 2021.10/bin:/mnt/d/LaTex/texlive/2023/bin/windows:/mnt/c/Users/28135/AppData/Local/Microsoft/WindowsApps:/mnt/e/CLion/CLion 2023.2.1/bin:/mnt/d/pycharm/Pycharm file/PyCharm 2023.3.2/bin:/mnt/e/bandzip/BANDIZIP/:/mnt/e/anconda/DataSpell 2023.2.2/bin:/mnt/d/pycharm/Graphviz/bin:/mnt/e/anconda:/mnt/e/DataGrip/datagrip/DataGrip 2023.2.1/bin:/mnt/e/IntelliJ IDEA/IntelliJ IDEA 2023.2.3/bin:/mnt/e/Intellij IDEA/IDEAfiles/IntelliJ IDEA 2024.2.0.1/bin:/mnt/e/CLion/clionfiles/CLion 2024.2.2/bin:/mnt/c/Users/28135/AppData/Local/Programs/Ollama:/mnt/e/Ollama:/mnt/d/cursar/cursor/resources/app/bin:/mnt/e/Vscode/Microsoft VS Code/bin:/snap/bin:/home/wxx/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/wxx/.vscode-server/extensions/ms-python.debugpy-2025.4.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/wxx/.vscode-server/extensions/ms-python.debugpy-2025.4.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-3d262ebc4dd462e5.txt', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-462ed2d58a.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/wxx/study_ros2/CHAPT2_ws/build/service_pkg_py', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/wxx/study_ros2/CHAPT2_ws/build/service_pkg_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wxx/study_ros2/CHAPT2_ws/install/service_pkg_py/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}, 'shell': False}
+[1.204067] (-) TimerEvent: {}
+[1.304516] (-) TimerEvent: {}
+[1.368130] (demo_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.368670] (demo_py_pkg) StdoutLine: {'line': b'writing ../../build/demo_py_pkg/demo_py_pkg.egg-info/PKG-INFO\n'}
+[1.369079] (demo_py_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/demo_py_pkg/demo_py_pkg.egg-info/dependency_links.txt\n'}
+[1.369330] (demo_py_pkg) StdoutLine: {'line': b'writing entry points to ../../build/demo_py_pkg/demo_py_pkg.egg-info/entry_points.txt\n'}
+[1.369543] (demo_py_pkg) StdoutLine: {'line': b'writing requirements to ../../build/demo_py_pkg/demo_py_pkg.egg-info/requires.txt\n'}
+[1.369768] (demo_py_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/demo_py_pkg/demo_py_pkg.egg-info/top_level.txt\n'}
+[1.380752] (demo_python_topic) StdoutLine: {'line': b'running egg_info\n'}
+[1.381349] (demo_python_topic) StdoutLine: {'line': b'writing ../../build/demo_python_topic/demo_python_topic.egg-info/PKG-INFO\n'}
+[1.381675] (demo_python_topic) StdoutLine: {'line': b'writing dependency_links to ../../build/demo_python_topic/demo_python_topic.egg-info/dependency_links.txt\n'}
+[1.382013] (demo_python_topic) StdoutLine: {'line': b'writing entry points to ../../build/demo_python_topic/demo_python_topic.egg-info/entry_points.txt\n'}
+[1.382207] (demo_python_topic) StdoutLine: {'line': b'writing requirements to ../../build/demo_python_topic/demo_python_topic.egg-info/requires.txt\n'}
+[1.382458] (demo_python_topic) StdoutLine: {'line': b'writing top-level names to ../../build/demo_python_topic/demo_python_topic.egg-info/top_level.txt\n'}
+[1.384706] (service_pkg_py) StdoutLine: {'line': b'running egg_info\n'}
+[1.385306] (service_pkg_py) StdoutLine: {'line': b'writing ../../build/service_pkg_py/service_pkg_py.egg-info/PKG-INFO\n'}
+[1.385649] (service_pkg_py) StdoutLine: {'line': b'writing dependency_links to ../../build/service_pkg_py/service_pkg_py.egg-info/dependency_links.txt\n'}
+[1.385923] (service_pkg_py) StdoutLine: {'line': b'writing entry points to ../../build/service_pkg_py/service_pkg_py.egg-info/entry_points.txt\n'}
+[1.386108] (service_pkg_py) StdoutLine: {'line': b'writing requirements to ../../build/service_pkg_py/service_pkg_py.egg-info/requires.txt\n'}
+[1.386321] (service_pkg_py) StdoutLine: {'line': b'writing top-level names to ../../build/service_pkg_py/service_pkg_py.egg-info/top_level.txt\n'}
+[1.403463] (demo_py_pkg) StdoutLine: {'line': b"reading manifest file '../../build/demo_py_pkg/demo_py_pkg.egg-info/SOURCES.txt'\n"}
+[1.404617] (-) TimerEvent: {}
+[1.405036] (demo_py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/demo_py_pkg/demo_py_pkg.egg-info/SOURCES.txt'\n"}
+[1.405288] (demo_py_pkg) StdoutLine: {'line': b'running build\n'}
+[1.405508] (demo_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[1.405868] (demo_py_pkg) StdoutLine: {'line': b'running install\n'}
+[1.406386] (demo_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[1.408289] (demo_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[1.408651] (demo_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.409992] (demo_py_pkg) StdoutLine: {'line': b"removing '/home/wxx/study_ros2/CHAPT2_ws/install/demo_py_pkg/lib/python3.8/site-packages/demo_py_pkg-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[1.410823] (demo_py_pkg) StdoutLine: {'line': b'Copying ../../build/demo_py_pkg/demo_py_pkg.egg-info to /home/wxx/study_ros2/CHAPT2_ws/install/demo_py_pkg/lib/python3.8/site-packages/demo_py_pkg-0.0.0-py3.8.egg-info\n'}
+[1.413054] (demo_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.424058] (demo_python_topic) StdoutLine: {'line': b"reading manifest file '../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'\n"}
+[1.425504] (demo_python_topic) StdoutLine: {'line': b"writing manifest file '../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'\n"}
+[1.425907] (demo_python_topic) StdoutLine: {'line': b'running build\n'}
+[1.426162] (demo_python_topic) StdoutLine: {'line': b'running build_py\n'}
+[1.426424] (demo_python_topic) StdoutLine: {'line': b'running install\n'}
+[1.426576] (service_pkg_py) StdoutLine: {'line': b"reading manifest file '../../build/service_pkg_py/service_pkg_py.egg-info/SOURCES.txt'\n"}
+[1.427086] (demo_python_topic) StdoutLine: {'line': b'running install_lib\n'}
+[1.427603] (service_pkg_py) StdoutLine: {'line': b"writing manifest file '../../build/service_pkg_py/service_pkg_py.egg-info/SOURCES.txt'\n"}
+[1.427912] (service_pkg_py) StdoutLine: {'line': b'running build\n'}
+[1.428069] (service_pkg_py) StdoutLine: {'line': b'running build_py\n'}
+[1.428423] (service_pkg_py) StdoutLine: {'line': b'running install\n'}
+[1.429074] (service_pkg_py) StdoutLine: {'line': b'running install_lib\n'}
+[1.429320] (demo_python_topic) StdoutLine: {'line': b'running install_data\n'}
+[1.429567] (demo_python_topic) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.431006] (service_pkg_py) StdoutLine: {'line': b'running install_data\n'}
+[1.431259] (demo_python_topic) StdoutLine: {'line': b"removing '/home/wxx/study_ros2/CHAPT2_ws/install/demo_python_topic/lib/python3.8/site-packages/demo_python_topic-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[1.431485] (service_pkg_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.431934] (demo_python_topic) StdoutLine: {'line': b'Copying ../../build/demo_python_topic/demo_python_topic.egg-info to /home/wxx/study_ros2/CHAPT2_ws/install/demo_python_topic/lib/python3.8/site-packages/demo_python_topic-0.0.0-py3.8.egg-info\n'}
+[1.433015] (demo_py_pkg) StdoutLine: {'line': b'Installing person_node script to /home/wxx/study_ros2/CHAPT2_ws/install/demo_py_pkg/lib/demo_py_pkg\n'}
+[1.433360] (service_pkg_py) StdoutLine: {'line': b"removing '/home/wxx/study_ros2/CHAPT2_ws/install/service_pkg_py/lib/python3.8/site-packages/service_pkg_py-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[1.433686] (demo_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/wxx/study_ros2/CHAPT2_ws/build/demo_py_pkg/install.log'\n"}
+[1.434047] (demo_python_topic) StdoutLine: {'line': b'running install_scripts\n'}
+[1.434359] (service_pkg_py) StdoutLine: {'line': b'Copying ../../build/service_pkg_py/service_pkg_py.egg-info to /home/wxx/study_ros2/CHAPT2_ws/install/service_pkg_py/lib/python3.8/site-packages/service_pkg_py-0.0.0-py3.8.egg-info\n'}
+[1.436384] (service_pkg_py) StdoutLine: {'line': b'running install_scripts\n'}
+[1.452135] (demo_python_topic) StdoutLine: {'line': b'Installing topic_publisher script to /home/wxx/study_ros2/CHAPT2_ws/install/demo_python_topic/lib/demo_python_topic\n'}
+[1.452534] (demo_python_topic) StdoutLine: {'line': b'Installing topic_subscribe script to /home/wxx/study_ros2/CHAPT2_ws/install/demo_python_topic/lib/demo_python_topic\n'}
+[1.452829] (demo_python_topic) StdoutLine: {'line': b"writing list of installed files to '/home/wxx/study_ros2/CHAPT2_ws/build/demo_python_topic/install.log'\n"}
+[1.453117] (service_pkg_py) StdoutLine: {'line': b'Installing service_client script to /home/wxx/study_ros2/CHAPT2_ws/install/service_pkg_py/lib/service_pkg_py\n'}
+[1.453399] (service_pkg_py) StdoutLine: {'line': b'Installing service_server script to /home/wxx/study_ros2/CHAPT2_ws/install/service_pkg_py/lib/service_pkg_py\n'}
+[1.453817] (service_pkg_py) StdoutLine: {'line': b"writing list of installed files to '/home/wxx/study_ros2/CHAPT2_ws/build/service_pkg_py/install.log'\n"}
+[1.461958] (demo_py_pkg) CommandEnded: {'returncode': 0}
+[1.473972] (demo_py_pkg) JobEnded: {'identifier': 'demo_py_pkg', 'rc': 0}
+[1.480253] (demo_python_topic) CommandEnded: {'returncode': 0}
+[1.491945] (demo_python_topic) JobEnded: {'identifier': 'demo_python_topic', 'rc': 0}
+[1.494200] (service_pkg_py) CommandEnded: {'returncode': 0}
+[1.504662] (service_pkg_py) JobEnded: {'identifier': 'service_pkg_py', 'rc': 0}
+[1.505063] (-) TimerEvent: {}
+[1.605371] (-) TimerEvent: {}
+[1.705762] (-) TimerEvent: {}
+[1.806130] (-) TimerEvent: {}
+[1.906515] (-) TimerEvent: {}
+[2.006891] (-) TimerEvent: {}
+[2.107290] (-) TimerEvent: {}
+[2.207685] (-) TimerEvent: {}
+[2.308139] (-) TimerEvent: {}
+[2.408534] (-) TimerEvent: {}
+[2.508924] (-) TimerEvent: {}
+[2.609357] (-) TimerEvent: {}
+[2.709729] (-) TimerEvent: {}
+[2.810162] (-) TimerEvent: {}
+[2.910555] (-) TimerEvent: {}
+[3.010984] (-) TimerEvent: {}
+[3.111358] (-) TimerEvent: {}
+[3.211709] (-) TimerEvent: {}
+[3.312093] (-) TimerEvent: {}
+[3.412495] (-) TimerEvent: {}
+[3.512901] (-) TimerEvent: {}
+[3.613314] (-) TimerEvent: {}
+[3.713721] (-) TimerEvent: {}
+[3.814174] (-) TimerEvent: {}
+[3.914586] (-) TimerEvent: {}
+[4.015039] (-) TimerEvent: {}
+[4.115466] (-) TimerEvent: {}
+[4.215890] (-) TimerEvent: {}
+[4.316343] (-) TimerEvent: {}
+[4.416757] (-) TimerEvent: {}
+[4.517218] (-) TimerEvent: {}
+[4.617624] (-) TimerEvent: {}
+[4.718100] (-) TimerEvent: {}
+[4.818503] (-) TimerEvent: {}
+[4.918970] (-) TimerEvent: {}
+[5.019436] (-) TimerEvent: {}
+[5.119880] (-) TimerEvent: {}
+[5.220323] (-) TimerEvent: {}
+[5.320929] (-) TimerEvent: {}
+[5.421323] (-) TimerEvent: {}
+[5.521741] (-) TimerEvent: {}
+[5.622129] (-) TimerEvent: {}
+[5.722549] (-) TimerEvent: {}
+[5.822934] (-) TimerEvent: {}
+[5.923366] (-) TimerEvent: {}
+[6.023865] (-) TimerEvent: {}
+[6.124303] (-) TimerEvent: {}
+[6.224725] (-) TimerEvent: {}
+[6.325106] (-) TimerEvent: {}
+[6.425520] (-) TimerEvent: {}
+[6.525915] (-) TimerEvent: {}
+[6.626344] (-) TimerEvent: {}
+[6.726731] (-) TimerEvent: {}
+[6.827106] (-) TimerEvent: {}
+[6.927504] (-) TimerEvent: {}
+[7.027951] (-) TimerEvent: {}
+[7.128356] (-) TimerEvent: {}
+[7.228743] (-) TimerEvent: {}
+[7.329123] (-) TimerEvent: {}
+[7.429527] (-) TimerEvent: {}
+[7.529904] (-) TimerEvent: {}
+[7.630298] (-) TimerEvent: {}
+[7.730691] (-) TimerEvent: {}
+[7.831103] (-) TimerEvent: {}
+[7.931530] (-) TimerEvent: {}
+[8.031976] (-) TimerEvent: {}
+[8.132342] (-) TimerEvent: {}
+[8.232732] (-) TimerEvent: {}
+[8.305291] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.332810] (-) TimerEvent: {}
+[8.433170] (-) TimerEvent: {}
+[8.475615] (interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[8.530986] (interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[8.533265] (-) TimerEvent: {}
+[8.633569] (-) TimerEvent: {}
+[8.694589] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[8.733703] (-) TimerEvent: {}
+[8.834083] (-) TimerEvent: {}
+[8.934549] (-) TimerEvent: {}
+[9.034935] (-) TimerEvent: {}
+[9.135362] (-) TimerEvent: {}
+[9.235789] (-) TimerEvent: {}
+[9.336198] (-) TimerEvent: {}
+[9.436621] (-) TimerEvent: {}
+[9.536999] (-) TimerEvent: {}
+[9.637459] (-) TimerEvent: {}
+[9.737847] (-) TimerEvent: {}
+[9.838226] (-) TimerEvent: {}
+[9.939094] (-) TimerEvent: {}
+[10.039527] (-) TimerEvent: {}
+[10.139931] (-) TimerEvent: {}
+[10.240321] (-) TimerEvent: {}
+[10.340786] (-) TimerEvent: {}
+[10.441187] (-) TimerEvent: {}
+[10.541601] (-) TimerEvent: {}
+[10.642053] (-) TimerEvent: {}
+[10.742475] (-) TimerEvent: {}
+[10.842878] (-) TimerEvent: {}
+[10.943329] (-) TimerEvent: {}
+[11.043720] (-) TimerEvent: {}
+[11.144137] (-) TimerEvent: {}
+[11.244622] (-) TimerEvent: {}
+[11.345012] (-) TimerEvent: {}
+[11.445469] (-) TimerEvent: {}
+[11.545862] (-) TimerEvent: {}
+[11.646237] (-) TimerEvent: {}
+[11.746646] (-) TimerEvent: {}
+[11.847104] (-) TimerEvent: {}
+[11.947505] (-) TimerEvent: {}
+[12.047864] (-) TimerEvent: {}
+[12.148285] (-) TimerEvent: {}
+[12.248692] (-) TimerEvent: {}
+[12.349097] (-) TimerEvent: {}
+[12.449503] (-) TimerEvent: {}
+[12.549909] (-) TimerEvent: {}
+[12.650300] (-) TimerEvent: {}
+[12.750715] (-) TimerEvent: {}
+[12.851101] (-) TimerEvent: {}
+[12.951518] (-) TimerEvent: {}
+[13.051975] (-) TimerEvent: {}
+[13.152383] (-) TimerEvent: {}
+[13.252794] (-) TimerEvent: {}
+[13.353213] (-) TimerEvent: {}
+[13.453694] (-) TimerEvent: {}
+[13.554126] (-) TimerEvent: {}
+[13.654601] (-) TimerEvent: {}
+[13.754992] (-) TimerEvent: {}
+[13.855407] (-) TimerEvent: {}
+[13.955815] (-) TimerEvent: {}
+[14.056243] (-) TimerEvent: {}
+[14.156705] (-) TimerEvent: {}
+[14.257133] (-) TimerEvent: {}
+[14.357529] (-) TimerEvent: {}
+[14.457927] (-) TimerEvent: {}
+[14.558340] (-) TimerEvent: {}
+[14.658777] (-) TimerEvent: {}
+[14.759223] (-) TimerEvent: {}
+[14.859632] (-) TimerEvent: {}
+[14.960022] (-) TimerEvent: {}
+[15.060394] (-) TimerEvent: {}
+[15.160787] (-) TimerEvent: {}
+[15.261171] (-) TimerEvent: {}
+[15.361594] (-) TimerEvent: {}
+[15.462056] (-) TimerEvent: {}
+[15.562453] (-) TimerEvent: {}
+[15.662919] (-) TimerEvent: {}
+[15.763292] (-) TimerEvent: {}
+[15.864365] (-) TimerEvent: {}
+[15.900161] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[15.964498] (-) TimerEvent: {}
+[16.024058] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[16.044496] (interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[16.046780] (interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[16.064614] (-) TimerEvent: {}
+[16.164991] (-) TimerEvent: {}
+[16.265446] (-) TimerEvent: {}
+[16.365804] (-) TimerEvent: {}
+[16.466205] (-) TimerEvent: {}
+[16.566660] (-) TimerEvent: {}
+[16.667098] (-) TimerEvent: {}
+[16.767519] (-) TimerEvent: {}
+[16.867957] (-) TimerEvent: {}
+[16.919005] (interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[16.919396] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[16.919482] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[16.919540] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[16.935156] (interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[16.968078] (-) TimerEvent: {}
+[17.068493] (-) TimerEvent: {}
+[17.098615] (interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[17.140543] (interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[17.144373] (interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[17.146252] (interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[17.152461] (interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[17.168588] (-) TimerEvent: {}
+[17.238313] (interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[17.257891] (interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/wxx/study_ros2/CHAPT2_ws/build/interfaces\n'}
+[17.267087] (interfaces) CommandEnded: {'returncode': 0}
+[17.267901] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'build'}
+[17.269848] (-) TimerEvent: {}
+[17.270303] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wxx/study_ros2/CHAPT2_ws/build/interfaces', '--', '-j16', '-l16'], 'cwd': '/home/wxx/study_ros2/CHAPT2_ws/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'wxx'), ('GIT_ASKPASS', '/home/wxx/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/wxx'), ('OLDPWD', '/home/wxx/study_ros2/CHAPT2_ws/src'), ('TERM_PROGRAM_VERSION', '1.98.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-24f64495-a479-4a6f-a329-49b34f7f7b89.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/wxx/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/wxx/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/wxx/.vscode-server/extensions/ms-python.debugpy-2025.4.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'wxx'), ('NAME', 'WX-R7000'), ('WSL_INTEROP', '/run/WSL/701_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/wxx/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/cursar/cursor/resources/app/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/d/programs/Scripts/:/mnt/d/programs/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/Program Files (x86)/runtime/win64:/mnt/d/Program Files (x86)/bin:/mnt/d/Program Files (x86)/polyspace/bin:/mnt/d/Matlab2021a/runtime/win64:/mnt/d/Matlab2021a/bin:/mnt/d/Matlab2021a/polyspace/bin:/mnt/c/Program Files/Bandizip/:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/f/Anaconda/Anaconda file:/mnt/f/Anaconda/Anaconda file/Scripts:/mnt/f/Anaconda/Anaconda file/Library/bin:/mnt/c/Program Files/dotnet/:/mnt/d/git/gitfiles/Git/cmd:/mnt/e/JAVA/Java_SDK/bin:/mnt/e/CLion/STM32cube/MinGW/bin:/mnt/d/cursar/cursor/resources/app/bin:/mnt/e/CLion/gcc-arm/10 2021.10/bin:/mnt/d/LaTex/texlive/2023/bin/windows:/mnt/c/Users/28135/AppData/Local/Microsoft/WindowsApps:/mnt/e/CLion/CLion 2023.2.1/bin:/mnt/d/pycharm/Pycharm file/PyCharm 2023.3.2/bin:/mnt/e/bandzip/BANDIZIP/:/mnt/e/anconda/DataSpell 2023.2.2/bin:/mnt/d/pycharm/Graphviz/bin:/mnt/e/anconda:/mnt/e/DataGrip/datagrip/DataGrip 2023.2.1/bin:/mnt/e/IntelliJ IDEA/IntelliJ IDEA 2023.2.3/bin:/mnt/e/Intellij IDEA/IDEAfiles/IntelliJ IDEA 2024.2.0.1/bin:/mnt/e/CLion/clionfiles/CLion 2024.2.2/bin:/mnt/c/Users/28135/AppData/Local/Programs/Ollama:/mnt/e/Ollama:/mnt/d/cursar/cursor/resources/app/bin:/mnt/e/Vscode/Microsoft VS Code/bin:/snap/bin:/home/wxx/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/wxx/.vscode-server/extensions/ms-python.debugpy-2025.4.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/wxx/.vscode-server/extensions/ms-python.debugpy-2025.4.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-3d262ebc4dd462e5.txt'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-462ed2d58a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/wxx/study_ros2/CHAPT2_ws/build/interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[17.309057] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__cpp\x1b[0m\n'}
+[17.309893] (interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[17.319770] (interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[17.369915] (-) TimerEvent: {}
+[17.470348] (-) TimerEvent: {}
+[17.570747] (-) TimerEvent: {}
+[17.621844] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_generator_c\x1b[0m\n'}
+[17.627896] (interfaces) StdoutLine: {'line': b'[  6%] Built target interfaces__cpp\n'}
+[17.642202] (interfaces) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[17.643035] (interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[17.644161] (interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[17.649153] (interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/face_detector__functions.c.o\x1b[0m\n'}
+[17.670894] (-) TimerEvent: {}
+[17.771336] (-) TimerEvent: {}
+[17.812382] (interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libinterfaces__rosidl_generator_c.so\x1b[0m\n'}
+[17.869594] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[17.871458] (-) TimerEvent: {}
+[17.892617] (interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/face_detector__type_support.cpp.o\x1b[0m\n'}
+[17.901848] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[17.906372] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[17.922150] (interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/face_detector__type_support.cpp.o\x1b[0m\n'}
+[17.938324] (interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/face_detector__type_support.cpp.o\x1b[0m\n'}
+[17.971624] (-) TimerEvent: {}
+[18.072169] (-) TimerEvent: {}
+[18.130639] (interfaces) StdoutLine: {'line': b'[ 32%] Built target interfaces__rosidl_generator_c\n'}
+[18.144315] (interfaces) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[18.144806] (interfaces) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[18.172305] (-) TimerEvent: {}
+[18.272742] (-) TimerEvent: {}
+[18.336773] (interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[18.372892] (-) TimerEvent: {}
+[18.397631] (interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[18.432614] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[18.445405] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[18.456054] (interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/face_detector__type_support.cpp.o\x1b[0m\n'}
+[18.467360] (interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/face_detector__type_support.c.o\x1b[0m\n'}
+[18.473022] (-) TimerEvent: {}
+[18.499187] (interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[18.518048] (interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libinterfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[18.543710] (interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[18.573169] (-) TimerEvent: {}
+[18.652933] (interfaces) StdoutLine: {'line': b'[ 61%] Built target interfaces__rosidl_typesupport_cpp\n'}
+[18.673308] (-) TimerEvent: {}
+[18.701735] (interfaces) StdoutLine: {'line': b'[ 61%] Built target interfaces__rosidl_typesupport_introspection_cpp\n'}
+[18.744333] (interfaces) StdoutLine: {'line': b'[ 61%] Built target interfaces__rosidl_typesupport_introspection_c\n'}
+[18.751431] (interfaces) StdoutLine: {'line': b'[ 61%] Built target interfaces__rosidl_typesupport_c\n'}
+[18.773415] (-) TimerEvent: {}
+[18.853921] (interfaces) StdoutLine: {'line': b'[ 61%] Built target interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[18.865537] (interfaces) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[18.873515] (-) TimerEvent: {}
+[18.973829] (-) TimerEvent: {}
+[19.067363] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[19.073931] (-) TimerEvent: {}
+[19.091296] (interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/face_detector__type_support_c.cpp.o\x1b[0m\n'}
+[19.174092] (-) TimerEvent: {}
+[19.274567] (-) TimerEvent: {}
+[19.374958] (-) TimerEvent: {}
+[19.390971] (interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[19.475080] (-) TimerEvent: {}
+[19.575500] (-) TimerEvent: {}
+[19.665325] (interfaces) StdoutLine: {'line': b'[ 70%] Built target interfaces__rosidl_typesupport_fastrtps_c\n'}
+[19.674883] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces\x1b[0m\n'}
+[19.675585] (-) TimerEvent: {}
+[19.685906] (interfaces) StdoutLine: {'line': b'[ 70%] Built target interfaces\n'}
+[19.698240] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__py\x1b[0m\n'}
+[19.711121] (interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[19.775711] (-) TimerEvent: {}
+[19.876043] (-) TimerEvent: {}
+[19.976356] (-) TimerEvent: {}
+[20.076722] (-) TimerEvent: {}
+[20.172209] (interfaces) StdoutLine: {'line': b'[ 74%] Built target interfaces__py\n'}
+[20.176811] (-) TimerEvent: {}
+[20.180690] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__python\x1b[0m\n'}
+[20.228714] (interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/srv/_face_detector_s.c.o\x1b[0m\n'}
+[20.276967] (-) TimerEvent: {}
+[20.346066] (interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/libinterfaces__python.so\x1b[0m\n'}
+[20.377105] (-) TimerEvent: {}
+[20.477474] (-) TimerEvent: {}
+[20.577863] (-) TimerEvent: {}
+[20.589926] (interfaces) StdoutLine: {'line': b'[ 80%] Built target interfaces__python\n'}
+[20.600998] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[20.601224] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[20.601494] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[20.627952] (interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[20.628574] (interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[20.630077] (interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[20.678009] (-) TimerEvent: {}
+[20.721605] (interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[20.735925] (interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[20.736242] (interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[20.778146] (-) TimerEvent: {}
+[20.878572] (-) TimerEvent: {}
+[20.927647] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_c__pyext\n'}
+[20.928695] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[20.951394] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[20.962638] (interfaces) CommandEnded: {'returncode': 0}
+[20.963709] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'install'}
+[20.965667] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wxx/study_ros2/CHAPT2_ws/build/interfaces'], 'cwd': '/home/wxx/study_ros2/CHAPT2_ws/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'wxx'), ('GIT_ASKPASS', '/home/wxx/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/wxx'), ('OLDPWD', '/home/wxx/study_ros2/CHAPT2_ws/src'), ('TERM_PROGRAM_VERSION', '1.98.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-24f64495-a479-4a6f-a329-49b34f7f7b89.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/wxx/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/wxx/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/wxx/.vscode-server/extensions/ms-python.debugpy-2025.4.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'wxx'), ('NAME', 'WX-R7000'), ('WSL_INTEROP', '/run/WSL/701_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/wxx/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/cursar/cursor/resources/app/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/d/programs/Scripts/:/mnt/d/programs/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/Program Files (x86)/runtime/win64:/mnt/d/Program Files (x86)/bin:/mnt/d/Program Files (x86)/polyspace/bin:/mnt/d/Matlab2021a/runtime/win64:/mnt/d/Matlab2021a/bin:/mnt/d/Matlab2021a/polyspace/bin:/mnt/c/Program Files/Bandizip/:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/f/Anaconda/Anaconda file:/mnt/f/Anaconda/Anaconda file/Scripts:/mnt/f/Anaconda/Anaconda file/Library/bin:/mnt/c/Program Files/dotnet/:/mnt/d/git/gitfiles/Git/cmd:/mnt/e/JAVA/Java_SDK/bin:/mnt/e/CLion/STM32cube/MinGW/bin:/mnt/d/cursar/cursor/resources/app/bin:/mnt/e/CLion/gcc-arm/10 2021.10/bin:/mnt/d/LaTex/texlive/2023/bin/windows:/mnt/c/Users/28135/AppData/Local/Microsoft/WindowsApps:/mnt/e/CLion/CLion 2023.2.1/bin:/mnt/d/pycharm/Pycharm file/PyCharm 2023.3.2/bin:/mnt/e/bandzip/BANDIZIP/:/mnt/e/anconda/DataSpell 2023.2.2/bin:/mnt/d/pycharm/Graphviz/bin:/mnt/e/anconda:/mnt/e/DataGrip/datagrip/DataGrip 2023.2.1/bin:/mnt/e/IntelliJ IDEA/IntelliJ IDEA 2023.2.3/bin:/mnt/e/Intellij IDEA/IDEAfiles/IntelliJ IDEA 2024.2.0.1/bin:/mnt/e/CLion/clionfiles/CLion 2024.2.2/bin:/mnt/c/Users/28135/AppData/Local/Programs/Ollama:/mnt/e/Ollama:/mnt/d/cursar/cursor/resources/app/bin:/mnt/e/Vscode/Microsoft VS Code/bin:/snap/bin:/home/wxx/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/wxx/.vscode-server/extensions/ms-python.debugpy-2025.4.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/wxx/.vscode-server/extensions/ms-python.debugpy-2025.4.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-3d262ebc4dd462e5.txt'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-462ed2d58a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/wxx/study_ros2/CHAPT2_ws/build/interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[20.973235] (interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.973970] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces\n'}
+[20.974176] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces\n'}
+[20.974591] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv\n'}
+[20.974844] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv/detail\n'}
+[20.975089] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv/detail/face_detector__functions.c\n'}
+[20.975309] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv/detail/face_detector__struct.h\n'}
+[20.975549] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv/detail/face_detector__functions.h\n'}
+[20.975704] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv/detail/face_detector__type_support.h\n'}
+[20.975883] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv/face_detector.h\n'}
+[20.976069] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/msg\n'}
+[20.976294] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[20.976977] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/environment/library_path.sh\n'}
+[20.977265] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/environment/library_path.dsv\n'}
+[20.977697] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so\n'}
+[20.978180] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""\n'}
+[20.978588] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces\n'}
+[20.978783] (-) TimerEvent: {}
+[20.979016] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv\n'}
+[20.979123] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv/detail\n'}
+[20.979231] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv/detail/face_detector__rosidl_typesupport_fastrtps_c.h\n'}
+[20.979418] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/msg\n'}
+[20.979614] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[20.979809] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[20.980159] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[20.980302] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces\n'}
+[20.980372] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv\n'}
+[20.980432] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv/detail\n'}
+[20.980485] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv/detail/dds_fastrtps\n'}
+[20.980536] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv/detail/face_detector__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.980600] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/msg\n'}
+[20.980839] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[20.981064] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[20.981459] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[20.981822] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces\n'}
+[20.982029] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv\n'}
+[20.982225] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv/detail\n'}
+[20.982420] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_c.h\n'}
+[20.982614] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv/detail/face_detector__type_support.c\n'}
+[20.982836] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/msg\n'}
+[20.983032] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[20.983362] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so\n'}
+[20.983445] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[20.983584] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so\n'}
+[20.983708] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""\n'}
+[20.983785] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces\n'}
+[20.983930] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv\n'}
+[20.983995] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv/detail\n'}
+[20.984187] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv/detail/face_detector__builder.hpp\n'}
+[20.984250] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv/detail/face_detector__struct.hpp\n'}
+[20.984307] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv/detail/face_detector__traits.hpp\n'}
+[20.984469] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv/detail/face_detector__type_support.hpp\n'}
+[20.984732] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv/face_detector.hpp\n'}
+[20.984798] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/msg\n'}
+[20.984956] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[20.985149] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces\n'}
+[20.985341] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv\n'}
+[20.985503] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv/detail\n'}
+[20.985750] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv/detail/face_detector__type_support.cpp\n'}
+[20.985974] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/include/interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.986187] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[20.986604] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[20.986802] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so\n'}
+[20.986884] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[20.987044] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/environment/pythonpath.sh\n'}
+[20.987107] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/environment/pythonpath.dsv\n'}
+[20.987803] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/__init__.py\n'}
+[21.014408] (interfaces) StdoutLine: {'line': b"Compiling '/home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/__init__.py'...\n"}
+[21.019052] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/srv\n'}
+[21.019592] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/srv/__init__.py\n'}
+[21.019970] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/srv/_face_detector.py\n'}
+[21.020118] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/srv/_face_detector_s.c\n'}
+[21.020332] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[21.020795] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[21.021234] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[21.021579] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[21.021890] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[21.022542] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[21.022780] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/libinterfaces__python.so\n'}
+[21.023335] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/wxx/study_ros2/CHAPT2_ws/install/interfaces/lib/libinterfaces__python.so" to ""\n'}
+[21.023743] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/srv/FaceDetector.idl\n'}
+[21.023969] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/srv/FaceDetector.srv\n'}
+[21.024157] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/srv/FaceDetector_Request.msg\n'}
+[21.024342] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/srv/FaceDetector_Response.msg\n'}
+[21.024730] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces\n'}
+[21.025068] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces\n'}
+[21.025396] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.sh\n'}
+[21.025602] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv\n'}
+[21.025786] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/environment/path.sh\n'}
+[21.025971] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/environment/path.dsv\n'}
+[21.026152] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/local_setup.bash\n'}
+[21.026338] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/local_setup.sh\n'}
+[21.026513] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/local_setup.zsh\n'}
+[21.026698] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/local_setup.dsv\n'}
+[21.026874] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/package.dsv\n'}
+[21.027236] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/ament_index/resource_index/packages/interfaces\n'}
+[21.027648] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cExport.cmake\n'}
+[21.027883] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[21.028149] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[21.028523] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[21.028785] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake\n'}
+[21.029026] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[21.029305] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cppExport.cmake\n'}
+[21.029582] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[21.029821] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[21.030085] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[21.030321] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[21.030553] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[21.030779] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[21.031015] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[21.031253] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[21.031479] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[21.031814] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[21.032237] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[21.032422] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake\n'}
+[21.032609] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake\n'}
+[21.032791] (interfaces) StdoutLine: {'line': b'-- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/interfaces/share/interfaces/package.xml\n'}
+[21.035110] (interfaces) CommandEnded: {'returncode': 0}
+[21.056945] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 0}
+[21.058643] (-) EventReactorShutdown: {}

@@ -1,0 +1,4 @@
+[console_scripts]
+topic_publisher = demo_python_topic.topic_pub:main
+topic_subscribe = demo_python_topic.topic_sub:main
+

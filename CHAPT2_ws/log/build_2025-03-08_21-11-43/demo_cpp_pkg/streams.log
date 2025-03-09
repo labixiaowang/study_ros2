@@ -1,0 +1,44 @@
+[0.036s] Invoking command in '/home/wxx/study_ros2/CHAPT2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/wxx/study_ros2/CHAPT2_ws/build/demo_cpp_pkg -- -j16 -l16
+[0.124s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.153s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.347s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.697s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.702s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[7.970s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.028s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[8.031s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.226s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[8.295s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.296s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.296s] -- Configured cppcheck include dirs: 
+[8.297s] -- Configured cppcheck exclude dirs and/or files: 
+[8.298s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[8.298s] -- Configured cpplint exclude dirs and/or files: 
+[8.299s] -- Added test 'lint_cmake' to check CMake code style
+[8.300s] -- Added test 'uncrustify' to check C / C++ code style
+[8.301s] -- Configured uncrustify additional arguments: 
+[8.302s] -- Added test 'xmllint' to check XML markup files
+[8.306s] -- Configuring done
+[8.319s] -- Generating done
+[8.322s] -- Build files have been written to: /home/wxx/study_ros2/CHAPT2_ws/build/demo_cpp_pkg
+[8.382s] [100%] Built target node_01
+[8.395s] Invoked command in '/home/wxx/study_ros2/CHAPT2_ws/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/wxx/study_ros2/CHAPT2_ws/build/demo_cpp_pkg -- -j16 -l16
+[8.408s] Invoking command in '/home/wxx/study_ros2/CHAPT2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/wxx/study_ros2/CHAPT2_ws/build/demo_cpp_pkg
+[8.414s] -- Install configuration: ""
+[8.415s] -- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/demo_cpp_pkg
+[8.415s] -- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/demo_cpp_pkg
+[8.415s] -- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.sh
+[8.415s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.dsv
+[8.415s] -- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.sh
+[8.415s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.dsv
+[8.416s] -- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.bash
+[8.416s] -- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.sh
+[8.416s] -- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.zsh
+[8.416s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.dsv
+[8.416s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/package.dsv
+[8.416s] -- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/packages/demo_cpp_pkg
+[8.417s] -- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig.cmake
+[8.417s] -- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig-version.cmake
+[8.417s] -- Installing: /home/wxx/study_ros2/CHAPT2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/package.xml
+[8.418s] -- Up-to-date: /home/wxx/study_ros2/CHAPT2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/node_01
+[8.421s] Invoked command in '/home/wxx/study_ros2/CHAPT2_ws/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/wxx/study_ros2/CHAPT2_ws/build/demo_cpp_pkg

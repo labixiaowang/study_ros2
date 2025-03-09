@@ -1,0 +1,5 @@
+  File "/home/wxx/study_ros2/CHAPT2_ws/install/demo_py_pkg/lib/python3.8/site-packages/demo_py_pkg/person_node.py", line 4
+    def __init__(self):
+                      ^
+SyntaxError: unexpected EOF while parsing
+

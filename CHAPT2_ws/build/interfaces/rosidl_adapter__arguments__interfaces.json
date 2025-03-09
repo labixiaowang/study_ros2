@@ -1,0 +1,6 @@
+{
+  "package_name": "interfaces",
+  "non_idl_tuples": [
+    "/home/wxx/study_ros2/CHAPT2_ws/src/interfaces:srv/FaceDetector.srv"
+  ]
+}

@@ -1,0 +1,4 @@
+[console_scripts]
+service_client = service_pkg_py.service_client:main
+service_server = service_pkg_py.service_server
+

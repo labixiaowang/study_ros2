@@ -1,0 +1,2 @@
+Invoking command in '/home/wxx/study_ros2/CHAPT2_ws/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/wxx/study_ros2/CHAPT2_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/wxx/study_ros2/CHAPT2_ws/install/interfaces
+Invoked command in '/home/wxx/study_ros2/CHAPT2_ws/build/interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/wxx/study_ros2/CHAPT2_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/wxx/study_ros2/CHAPT2_ws/install/interfaces

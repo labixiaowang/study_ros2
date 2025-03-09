@@ -1,0 +1,3 @@
+[console_scripts]
+person_node = demo_py_pkg.person_node:main
+
