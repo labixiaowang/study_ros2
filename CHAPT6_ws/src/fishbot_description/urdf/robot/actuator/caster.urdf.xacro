@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro= "http://www.ros.org/wiki/xacro">
+    <xacro:include filename="$(find fishbot_description)/urdf/robot/common_inertial.xacro"/>
+    <xacro:macro name="caster_xacro"  params = "caster_name xyz">
+        <!-- 机器人的惯性测量单元（IMU） -->
+        <link name="${caster_name}_link">
+            <visual>
+                <!--沿着自己几何中心的偏移和旋转  -->
+                <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+                <!-- 几何形状 -->
+                <geometry>
+                    <sphere radius="0.016"/>
+                </geometry>
+                <material name="yelllow">
+                    <color rgba="1.0 1.0 0.0 0.8"/>
+                </material>
+            </visual>
+            <collision>
+                <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+                <geometry>
+                    <sphere radius="0.016"/>
+                </geometry>
+            </collision>
+            <xacro:sphere_inertia m="0.05" r="0.016"/>
+        </link>
+        
+        <joint name="${caster_name}_joint" type="fixed">
+            <origin xyz="${xyz}" rpy="0.0 0.0 0.0"/>
+            <parent link="base_link"/>
+            <child link="${caster_name}_link"/>
+            <axis xyz="0.0 1.0 0.0"/>
+        </joint>
+        <gazebo reference="${caster_name}_link">
+            <material>Gazebo/Yellow</material>
+            <!-- mu1:切向摩擦系数 mu2:法向摩擦系数 kp:刚度系数 kd：阻尼系数 -->
+            <mu1 value="20.0"/> 
+            <mu2 value="20.0"/> 
+            <kp value="1000000.0"/> 
+            <kd value="1.0"/>
+        </gazebo>
+    </xacro:macro>
+
+</robot>
+
